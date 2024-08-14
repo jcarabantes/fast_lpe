@@ -1,4 +1,5 @@
 ```powershell
+gci -Recurse . | %{ $_.FullName}
 systeminfo
 net user
 net localgroup administrators

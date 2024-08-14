@@ -10,4 +10,5 @@ tasklist /v
 wmic startup get caption,command
 icacls C:\ /find "BUILTIN\Users:F"
 wmic product get name,version,vendor
+netstat.exe -noa | findstr LISTEN
 ```

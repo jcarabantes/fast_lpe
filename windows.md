@@ -1,6 +1,6 @@
 ```powershell
-gci -Recurse . | %{ $_.FullName}
-systeminfo
+gci -Recurse . | %{ $_.FullName} # search for files in your WD with credentials, etc.
+systeminfo # any info that can lead u to find a CVE...
 net user
 net localgroup administrators
 whoami /priv

@@ -12,4 +12,5 @@ find / -readable -type f -ls 2>/dev/null | egrep -v "proc|kernel|snap|\/usr\/bin
 find / -user $(whoami) -ls  2>/dev/null # dont forget to search for groups you belong
 ps aux | grep root
 crontab -l
+ls -l /var/mail/ # cat /var/mail/*
 ```
